@@ -7,7 +7,7 @@
 $user = $env:USERNAME
 $DirThunderbirdPath = "C:\Users\$user\AppData\Roaming\Thunderbird"
 $FilePorfileIni = "C:\Users\$user\AppData\Roaming\Thunderbird\profiles.ini"
-$NewProfilesPath = "O:\OST\$user\Thunderbird"
+$NewProfilesPath = "D:\Mail\$user\Thunderbird"
 If (Get-Item -Path $NewProfilesPath)
 {
     Write-Host "Folder Thunderbird Exist"
