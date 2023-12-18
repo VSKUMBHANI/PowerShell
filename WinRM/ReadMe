@@ -1,1 +1,4 @@
-
+Windows Remote Management Module.
+Scripts are use for configure WinRM in both the PCs Local and Remote.
+Local PC: From which you want to connect the other PCs.
+Remote PC: PCs which you want to connect and manage.
