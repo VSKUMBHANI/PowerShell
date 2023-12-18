@@ -1,5 +1,5 @@
 # https://github.com/VSKUMBHANI
-# Script is used to set volume.
+# Script is used to set windows volume level.
 
 Function Set-Speaker($Volume)
 {
