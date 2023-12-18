@@ -1,4 +1,5 @@
 ﻿# Export registry of Environment Variables...
+# https://github.com/VSKUMBHANI
 
 $SystemVariablePath = "HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\Environment"
 $UserVariablePath = "HKCU\Environment"
