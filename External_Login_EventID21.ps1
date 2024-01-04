@@ -43,3 +43,4 @@
 		
 		$body = "<b>User Login Sucessful on Host:</b> $env:COMPUTERNAME<br>`r`n<b>User Name:</b> $Username<br>`r`n<b>Session ID:</b> $SessionID<br>`r`n<b>IP Address:</b> $ipAddress<br>`r`n<b>City:</b> $City<br>`r`n<b>State:</b> $State<br>`r`n<b>Country:</b> $Country<br>`r`n<b>ISP:</b> $ISP<br>`r`n<b>Date & Time:</b> $datetime<br>"
 		Send-MailMessage -From $from -To $to -Subject "User $Username Loggedin into the $env:COMPUTERNAME with External IP $ipAddress" -Body $body -BodyAsHtml -SmtpServer $smtpServer -Credential $smtpCredential -Port 465 -UseSsl
+  }
