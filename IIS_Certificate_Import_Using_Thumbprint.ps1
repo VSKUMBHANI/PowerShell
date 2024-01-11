@@ -1,4 +1,4 @@
-#Import PFX certificate to local certificate store.
+#Import PFX certificate to local certificate store .
 #Import module Web Administration
 Import-Module WebAdministration
 
