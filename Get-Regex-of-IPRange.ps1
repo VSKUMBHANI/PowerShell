@@ -1,7 +1,7 @@
 <#
 #A PowerShell script that will provide you the Regex syntax for matching an IP range of currnet 'ethernet' adapter
 #Verify the regex on https://regex101.com/ for cross check.
-
+#https://github.com/VSKUMBHANI/PowerShell/
 #>
 # Get the IP address assigned to the network adapter 'ethernet'
 $ipAlias = Get-NetIPAddress | Where-Object {$_.InterfaceAlias -eq "ethernet"}
